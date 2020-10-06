@@ -1,0 +1,33 @@
+{
+  "name": "it17106016_it17161084",
+  "version": "1.0.0",
+  "description": "This is google drive file upload application created by IT17106016 and IT17161084 using ouath2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshnayanajith/SSD_Assignment_2.git"
+  },
+  "keywords": [
+    "OAuth2.0"
+  ],
+  "author": "IT17106016 IT17161084",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganeshnayanajith/SSD_Assignment_2/issues"
+  },
+  "homepage": "https://github.com/ganeshnayanajith/SSD_Assignment_2#readme",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "googleapis": "^61.0.0",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
